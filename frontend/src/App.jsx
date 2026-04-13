@@ -61,9 +61,59 @@ function App() {
                 </div>
               </div>
             </div>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Tiêm chủng</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Khám bệnh</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Báo cáo</a>
+            {/* Dropdown: Tiêm chủng */}
+            <div className="relative group px-2">
+              <button className="flex items-center gap-1 text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300 py-4">
+                Tiêm chủng
+                <span className="material-symbols-outlined text-sm">expand_more</span>
+              </button>
+              
+              {/* Menu con */}
+              <div className="absolute left-0 top-full hidden group-hover:block w-56 pt-2 animate-in fade-in slide-in-from-top-2 duration-300">
+                <div className="bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-xl overflow-hidden shadow-2xl">
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Lịch tiêm</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Danh sách học sinh cần tiêm</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Xác nhận phụ huynh</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors border-t border-white/5">Lịch sử tiêm</a>
+                </div>
+              </div>
+            </div>
+
+            {/* Dropdown: Khám định kỳ */}
+            <div className="relative group px-2">
+              <button className="flex items-center gap-1 text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300 py-4">
+                Khám định kỳ
+                <span className="material-symbols-outlined text-sm">expand_more</span>
+              </button>
+              
+              {/* Menu con */}
+              <div className="absolute left-0 top-full hidden group-hover:block w-52 pt-2 animate-in fade-in slide-in-from-top-2 duration-300">
+                <div className="bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-xl overflow-hidden shadow-2xl">
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Lịch khám</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Kết quả khám</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Tạo lịch khám</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors border-t border-white/5">Báo cáo khám</a>
+                </div>
+              </div>
+            </div>
+
+            {/* Dropdown: Báo cáo */}
+            <div className="relative group px-2">
+              <button className="flex items-center gap-1 text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300 py-4">
+                Báo cáo
+                <span className="material-symbols-outlined text-sm">expand_more</span>
+              </button>
+              
+              {/* Menu con */}
+              <div className="absolute right-0 top-full hidden group-hover:block w-52 pt-2 animate-in fade-in slide-in-from-top-2 duration-300">
+                <div className="bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-xl overflow-hidden shadow-2xl">
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Báo cáo sức khỏe</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Báo cáo sự cố</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Báo cáo thuốc</a>
+                  <a href="#" className="block px-6 py-3 text-sm font-bold text-cyan-400 hover:bg-cyan-500/10 transition-colors border-t border-white/5">Thống kê tổng hợp</a>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="flex items-center gap-6">
             <button className="text-slate-400 hover:text-cyan-300 transition-colors cursor-pointer active:scale-95">
