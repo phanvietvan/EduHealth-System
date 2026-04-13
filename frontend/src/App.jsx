@@ -113,6 +113,22 @@ function App() {
                   <a href="#" className="block px-6 py-3 text-sm font-bold text-cyan-400 hover:bg-cyan-500/10 transition-colors border-t border-white/5">Thống kê tổng hợp</a>
                 </div>
               </div>
+            {/* Dropdown: Người dùng */}
+            <div className="relative group px-2">
+              <button className="flex items-center gap-1 text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300 py-4">
+                Người dùng
+                <span className="material-symbols-outlined text-sm">expand_more</span>
+              </button>
+              
+              {/* Menu con */}
+              <div className="absolute right-0 top-full hidden group-hover:block w-52 pt-2 animate-in fade-in slide-in-from-top-2 duration-300">
+                <div className="bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-xl overflow-hidden shadow-2xl">
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Danh sách người dùng</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Thêm người dùng</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Phân quyền role</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors border-t border-white/5">Quản lý tài khoản</a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="flex items-center gap-6">
