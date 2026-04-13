@@ -10,12 +10,12 @@ function App() {
             EduHealth
           </div>
           <div className="hidden lg:flex items-center gap-10">
-            <a className="text-cyan-400 font-bold border-b-2 border-cyan-400 pb-1 font-manrope transition-all duration-300" href="#">Home</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Profile</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Health Records</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Vaccination</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Schedule</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Notifications</a>
+            <a className="text-cyan-400 font-bold border-b-2 border-cyan-400 pb-1 font-manrope transition-all duration-300" href="#">Trang chủ</a>
+            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Hồ sơ</a>
+            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Hồ sơ sức khỏe</a>
+            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Tiêm chủng</a>
+            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Lịch trình</a>
+            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Thông báo</a>
           </div>
           <div className="flex items-center gap-6">
             <button className="text-slate-400 hover:text-cyan-300 transition-colors cursor-pointer active:scale-95">
