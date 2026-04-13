@@ -9,13 +9,13 @@ function App() {
           <div className="text-2xl font-thin tracking-tighter text-cyan-400 font-manrope">
             EduHealth
           </div>
-          <div className="hidden lg:flex items-center gap-6">
-            <a className="text-cyan-400 font-bold border-b-2 border-cyan-400 pb-1 font-manrope transition-colors duration-300" href="#">Dashboard</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Sự cố y tế</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Thuốc</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Tiêm chủng</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Khám bệnh</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Báo cáo</a>
+          <div className="hidden lg:flex items-center bg-white/5 backdrop-blur-md rounded-full px-6 py-2 border border-white/10 gap-2">
+            <a className="px-4 py-1.5 rounded-full bg-cyan-400 text-slate-900 font-bold text-xs uppercase tracking-wider transition-all duration-300 shadow-[0_0_15px_rgba(34,211,238,0.3)]" href="#">Dashboard</a>
+            <a className="px-4 py-1.5 rounded-full text-slate-400 font-bold text-xs uppercase tracking-wider hover:bg-white/10 hover:text-cyan-300 transition-all duration-300" href="#">Sự cố y tế</a>
+            <a className="px-4 py-1.5 rounded-full text-slate-400 font-bold text-xs uppercase tracking-wider hover:bg-white/10 hover:text-cyan-300 transition-all duration-300" href="#">Thuốc</a>
+            <a className="px-4 py-1.5 rounded-full text-slate-400 font-bold text-xs uppercase tracking-wider hover:bg-white/10 hover:text-cyan-300 transition-all duration-300" href="#">Tiêm chủng</a>
+            <a className="px-4 py-1.5 rounded-full text-slate-400 font-bold text-xs uppercase tracking-wider hover:bg-white/10 hover:text-cyan-300 transition-all duration-300" href="#">Khám bệnh</a>
+            <a className="px-4 py-1.5 rounded-full text-slate-400 font-bold text-xs uppercase tracking-wider hover:bg-white/10 hover:text-cyan-300 transition-all duration-300" href="#">Báo cáo</a>
           </div>
           <div className="flex items-center gap-6">
             <button className="text-slate-400 hover:text-cyan-300 transition-colors cursor-pointer active:scale-95">
