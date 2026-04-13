@@ -18,6 +18,9 @@ function App() {
             <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Thông báo</a>
           </div>
           <div className="flex items-center gap-6">
+            <button className="text-slate-400 hover:text-cyan-300 transition-colors cursor-pointer active:scale-95 flex items-center gap-1" title="Dashboard">
+              <span className="material-symbols-outlined">grid_view</span>
+            </button>
             <button className="text-slate-400 hover:text-cyan-300 transition-colors cursor-pointer active:scale-95">
               <span className="material-symbols-outlined">notifications</span>
             </button>
