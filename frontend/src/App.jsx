@@ -10,7 +10,22 @@ function App() {
             EduHealth
           </div>
           <div className="hidden lg:flex items-center gap-12">
-            <a className="text-cyan-400 font-bold border-b-2 border-cyan-400 pb-1 font-manrope transition-all duration-300" href="#">Dashboard</a>
+            {/* Dropdown: Dashboard */}
+            <div className="relative group px-2">
+              <button className="flex items-center gap-1 text-cyan-400 font-bold border-b-2 border-cyan-400 pb-1 font-manrope transition-all duration-300 py-4">
+                Dashboard
+                <span className="material-symbols-outlined text-sm">expand_more</span>
+              </button>
+              
+              {/* Menu con */}
+              <div className="absolute left-0 top-full hidden group-hover:block w-64 pt-2 animate-in fade-in slide-in-from-top-2 duration-300">
+                <div className="bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-xl overflow-hidden shadow-2xl">
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Tổng quan hệ thống</a>
+                  <a href="#" className="block px-6 py-3 text-sm text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors">Thống kê nhanh (số học sinh, sự cố, thuốc)</a>
+                  <a href="#" className="block px-6 py-3 text-sm font-bold text-red-400 hover:bg-red-500/10 transition-colors border-t border-white/5">Cảnh báo hôm nay</a>
+                </div>
+              </div>
+            </div>
             {/* Dropdown: Sự cố y tế */}
             <div className="relative group px-2">
               <button className="flex items-center gap-1 text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300 py-4">
