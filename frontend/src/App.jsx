@@ -9,11 +9,13 @@ function App() {
           <div className="text-2xl font-thin tracking-tighter text-cyan-400 font-manrope">
             EduHealth
           </div>
-          <div className="hidden md:flex items-center gap-10">
+          <div className="hidden lg:flex items-center gap-6">
             <a className="text-cyan-400 font-bold border-b-2 border-cyan-400 pb-1 font-manrope transition-colors duration-300" href="#">Dashboard</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Patients</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Research</a>
-            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Resources</a>
+            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Sự cố y tế</a>
+            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Thuốc</a>
+            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Tiêm chủng</a>
+            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Khám bệnh</a>
+            <a className="text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300" href="#">Báo cáo</a>
           </div>
           <div className="flex items-center gap-6">
             <button className="text-slate-400 hover:text-cyan-300 transition-colors cursor-pointer active:scale-95">
