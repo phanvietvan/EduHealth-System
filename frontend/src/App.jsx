@@ -113,6 +113,7 @@ function App() {
                   <a href="#" className="block px-6 py-3 text-sm font-bold text-cyan-400 hover:bg-cyan-500/10 transition-colors border-t border-white/5">Thống kê tổng hợp</a>
                 </div>
               </div>
+            </div>
             {/* Dropdown: Người dùng */}
             <div className="relative group px-2">
               <button className="flex items-center gap-1 text-slate-400 font-medium font-manrope hover:text-cyan-300 transition-colors duration-300 py-4">
